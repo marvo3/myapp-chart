@@ -1,0 +1,12 @@
+backend:
+  image: kravchuchka/backend
+  port: 8080
+frontend:
+  image: kravchuchka/frontend
+  port: 3000
+postgresql:
+  image: postgres
+  port: 5432
+  user: postgres
+  password: postgres
+  dbName: myappdb
